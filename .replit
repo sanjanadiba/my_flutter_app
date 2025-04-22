@@ -1,0 +1,6 @@
+run = "flutter run -d chrome"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "flutter run -d chrome"]
